@@ -3,7 +3,8 @@
     active:
     - dev
 ---
-server: 8001
+server:
+  port: 8001
 spring:
    profiles: dev
    application:
@@ -39,7 +40,8 @@ info:
   build.artifactId: $project.artifactId$   # unfinished 实际配置了，但是却取不出来
   build.version: $project.version$          # unfinished 实际配置了，但是却取不出来
 ---
-server: 8001
+server: 
+  port: 8001
 spring:
    profiles: test
    application:
